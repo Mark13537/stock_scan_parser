@@ -1,0 +1,27 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+
+linter:
+  rules:
+    avoid_print: true 
+    prefer_single_quotes: true
+    # prefer_const_constructors_in_immutables: false
+    prefer_const_constructors: true
+    # prefer_const_literals_to_create_immutables: false
+    prefer_final_fields: true
+    unnecessary_breaks: true
+    # use_key_in_widget_constructors: false
+    avoid_dynamic_calls: true
+    cancel_subscriptions: true
+
+dart_code_metrics:
+  anti-patterns:
+    - long-method
+  metrics:
+    maximum-nesting-level: 5
+    number-of-parameters: 5
+
+# https://dart.dev/guides/language/analysis-options

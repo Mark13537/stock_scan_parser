@@ -1,0 +1,6 @@
+{
+  "appTitle": "Stock Scan Parser",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
